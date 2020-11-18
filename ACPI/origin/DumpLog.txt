@@ -1,0 +1,170 @@
+15:281  7:005  Found BIOS RSDP at fcf60
+15:281  0:000  Printing ACPI tables from RSDP fcf60 ...
+15:281  0:000   fcf60: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+15:281  0:000    (Xsdt: 493d10a8, Rsdt: 493d1028)
+15:281  0:000    493d10a8: 'XSDT', 'A M I', Rev: 1, Len: 196
+15:281  0:000    493d1028: 'RSDT', 'A M I', Rev: 1, Len: 116
+15:281  0:000    Tables in Xsdt: 20
+15:281  0:000    0. 493fbac8: 'FACP', 'A M I', Rev: 6, Len: 276
+15:281  0:000        (Dsdt: 493D1200, Facs: 49BE3C40, XDsdt: 493d1200, XFacs: 0)
+15:281  0:000        493d1200: 'DSDT', 'A M I', Rev: 2, Len: 174277
+15:283  0:002        49be3c40: 'FACS', Ver: 2, Len: 64
+15:283  0:000    1. 493fbbe0: 'APIC', 'A M I', Rev: 3, Len: 132
+15:283  0:000    2. 493fbc68: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:283  0:000    3. = 0
+15:283  0:000    4. 493fbd08: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:283  0:000    5. 493fbd48: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+15:283  0:000    6. 493fc0d8: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:283  0:000    7. 493fc178: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+15:283  0:000    8. 493ff2d0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9534
+15:283  0:000    9. 49401810: 'HPET', 'SKL', Rev: 1, Len: 56
+15:283  0:000    10. 49401848: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+15:283  0:000    11. 49402360: 'UEFI', 'EDK2', Rev: 1, Len: 66
+15:283  0:000    12. 494023a8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+15:283  0:000    13. 49403288: 'LPIT', 'SKL', Rev: 1, Len: 148
+15:283  0:000    14. 49403320: 'WSMT', 'SKL', Rev: 1, Len: 40
+15:283  0:000    15. 49403348: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+15:283  0:000    16. 494035e8: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+15:283  0:000    17. 494065f0: 'DBGP', '', Rev: 1, Len: 52
+15:283  0:000    18. 49406628: 'DBG2', '', Rev: 0, Len: 84
+15:283  0:000    19. 49406680: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:283  0:000    Tables in Rsdt: 20
+15:283  0:000    0. 493d1178: 'FACP', 'A M I', Rev: 2, Len: 132
+15:283  0:000        (Dsdt: 493D1200, Facs: 49BE3C00)
+15:283  0:000        493d1200: 'DSDT', 'A M I', Rev: 2, Len: 174277
+15:285  0:002        49be3c00: 'FACS', Ver: 0, Len: 64
+15:285  0:000    1. 493fbbe0: 'APIC', 'A M I', Rev: 3, Len: 132
+15:285  0:000    2. 493fbc68: 'FPDT', 'A M I', Rev: 1, Len: 68
+15:285  0:000    3. = 0
+15:285  0:000    4. 493fbd08: 'MCFG', 'A M I', Rev: 1, Len: 60
+15:285  0:000    5. 493fbd48: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+15:285  0:000    6. 493fc0d8: 'FIDT', 'A M I', Rev: 1, Len: 156
+15:285  0:000    7. 493fc178: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+15:285  0:000    8. 493ff2d0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9534
+15:285  0:000    9. 49401810: 'HPET', 'SKL', Rev: 1, Len: 56
+15:285  0:000    10. 49401848: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+15:285  0:000    11. 49402360: 'UEFI', 'EDK2', Rev: 1, Len: 66
+15:285  0:000    12. 494023a8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+15:285  0:000    13. 49403288: 'LPIT', 'SKL', Rev: 1, Len: 148
+15:285  0:000    14. 49403320: 'WSMT', 'SKL', Rev: 1, Len: 40
+15:285  0:000    15. 49403348: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+15:285  0:000    16. 494035e8: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+15:285  0:000    17. 494065f0: 'DBGP', '', Rev: 1, Len: 52
+15:285  0:000    18. 49406628: 'DBG2', '', Rev: 0, Len: 84
+15:285  0:000    19. 49406680: 'BGRT', 'A M I', Rev: 1, Len: 56
+15:285  0:000  Found UEFI Acpi 2.0 RSDP at 493d1000
+15:285  0:000  Saving ACPI tables from RSDP 493d1000 to ACPI\origin ...
+15:285  0:000   493d1000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+15:320  0:035    (Xsdt: 493d10a8, Rsdt: 493d1028)
+15:320  0:000    493d10a8: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+15:354  0:033    493d1028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+15:386  0:032    Tables in Xsdt: 20
+15:386  0:000    0. 493fbac8: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+15:420  0:033        (Dsdt: 493D1200, Facs: 49BE3C40, XDsdt: 493d1200, XFacs: 0)
+15:420  0:000        493d1200: 'DSDT', 'A M I', Rev: 2, Len: 174277 -> DSDT.aml
+15:461  0:041        49be3c40: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+15:496  0:035    1. 493fbbe0: 'APIC', 'A M I', Rev: 3, Len: 132 -> APIC.aml
+15:531  0:035    2. 493fbc68: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+15:565  0:033    3. = 0
+15:565  0:000    4. 493fbd08: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+15:600  0:035    5. 493fbd48: 'SSDT', 'SataTabl', Rev: 1, Len: 912 -> SSDT-0-SataTabl.aml
+15:635  0:034    6. 493fc0d8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+15:669  0:033    7. 493fc178: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628 -> SSDT-1-SaSsdt.aml
+15:703  0:034    8. 493ff2d0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9534 -> SSDT-2-PegSsdt.aml
+15:737  0:034    9. 49401810: 'HPET', 'SKL', Rev: 1, Len: 56 -> HPET.aml
+15:771  0:034    10. 49401848: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835 -> SSDT-3-xh_rvp08.aml
+15:811  0:039    11. 49402360: 'UEFI', 'EDK2', Rev: 1, Len: 66 -> UEFI.aml
+15:847  0:035    12. 494023a8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806 -> SSDT-4-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+15:881  0:034        * 1228305304: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1749  53 53 44 54 D5 06 00 00 02 D0 50 6D 52 65 66 00 Internal length = 1749 -> SSDT-x4_0-Cpu0Ist.aml
+15:916  0:034        * 1211393048: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x4_1-ApIst.aml
+15:949  0:033        * 1211387928: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x4_2-Cpu0Cst.aml
+15:983  0:033        * 1211391448: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 39 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x4_3-ApCst.aml
+16:019  0:036        * 1211392024: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 54 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x4_4-Cpu0Hwp.aml
+16:053  0:033        * 1211395224: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x4_5-ApHwp.aml
+16:087  0:034        * 1211392536: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 3C 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x4_6-HwpLvt.aml
+16:122  0:035  
+16:122  0:000    13. 49403288: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+16:156  0:033    14. 49403320: 'WSMT', 'SKL', Rev: 1, Len: 40 -> WSMT.aml
+16:190  0:034    15. 49403348: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-5-sensrhub.aml
+16:226  0:036    16. 494035e8: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290 -> SSDT-6-PtidDevc.aml
+16:261  0:034    17. 494065f0: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+16:296  0:035    18. 49406628: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+16:332  0:035    19. 49406680: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+16:367  0:035    Tables in Rsdt: 20
+16:367  0:000    0. 493d1178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+16:402  0:034        (Dsdt: 493D1200, Facs: 49BE3C00)
+16:402  0:000        493d1200: 'DSDT', 'A M I', Rev: 2, Len: 174277
+16:404  0:002        49be3c00: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+16:440  0:035    1. 493fbbe0: 'APIC', 'A M I', Rev: 3, Len: 132
+16:440  0:000    2. 493fbc68: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:440  0:000    3. = 0
+16:440  0:000    4. 493fbd08: 'MCFG', 'A M I', Rev: 1, Len: 60
+16:440  0:000    5. 493fbd48: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+16:440  0:000    6. 493fc0d8: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:440  0:000    7. 493fc178: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+16:440  0:000    8. 493ff2d0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9534
+16:440  0:000    9. 49401810: 'HPET', 'SKL', Rev: 1, Len: 56
+16:440  0:000    10. 49401848: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+16:440  0:000    11. 49402360: 'UEFI', 'EDK2', Rev: 1, Len: 66
+16:440  0:000    12. 494023a8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+16:440  0:000    13. 49403288: 'LPIT', 'SKL', Rev: 1, Len: 148
+16:440  0:000    14. 49403320: 'WSMT', 'SKL', Rev: 1, Len: 40
+16:440  0:000    15. 49403348: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+16:440  0:000    16. 494035e8: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+16:440  0:000    17. 494065f0: 'DBGP', '', Rev: 1, Len: 52
+16:440  0:000    18. 49406628: 'DBG2', '', Rev: 0, Len: 84
+16:440  0:000    19. 49406680: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:440  0:000  Found UEFI Acpi 1.0 RSDP at 493d1000
+16:440  0:000  Printing ACPI tables from RSDP 493d1000 ...
+16:440  0:000   493d1000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+16:440  0:000    (Xsdt: 493d10a8, Rsdt: 493d1028)
+16:440  0:000    493d10a8: 'XSDT', 'A M I', Rev: 1, Len: 196
+16:440  0:000    493d1028: 'RSDT', 'A M I', Rev: 1, Len: 116
+16:440  0:000    Tables in Xsdt: 20
+16:440  0:000    0. 493fbac8: 'FACP', 'A M I', Rev: 6, Len: 276
+16:440  0:000        (Dsdt: 493D1200, Facs: 49BE3C40, XDsdt: 493d1200, XFacs: 0)
+16:440  0:000        493d1200: 'DSDT', 'A M I', Rev: 2, Len: 174277
+16:442  0:002        49be3c40: 'FACS', Ver: 2, Len: 64
+16:442  0:000    1. 493fbbe0: 'APIC', 'A M I', Rev: 3, Len: 132
+16:442  0:000    2. 493fbc68: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:442  0:000    3. = 0
+16:442  0:000    4. 493fbd08: 'MCFG', 'A M I', Rev: 1, Len: 60
+16:442  0:000    5. 493fbd48: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+16:442  0:000    6. 493fc0d8: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:442  0:000    7. 493fc178: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+16:442  0:000    8. 493ff2d0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9534
+16:442  0:000    9. 49401810: 'HPET', 'SKL', Rev: 1, Len: 56
+16:442  0:000    10. 49401848: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+16:442  0:000    11. 49402360: 'UEFI', 'EDK2', Rev: 1, Len: 66
+16:442  0:000    12. 494023a8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+16:442  0:000    13. 49403288: 'LPIT', 'SKL', Rev: 1, Len: 148
+16:442  0:000    14. 49403320: 'WSMT', 'SKL', Rev: 1, Len: 40
+16:442  0:000    15. 49403348: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+16:442  0:000    16. 494035e8: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+16:442  0:000    17. 494065f0: 'DBGP', '', Rev: 1, Len: 52
+16:442  0:000    18. 49406628: 'DBG2', '', Rev: 0, Len: 84
+16:442  0:000    19. 49406680: 'BGRT', 'A M I', Rev: 1, Len: 56
+16:442  0:000    Tables in Rsdt: 20
+16:442  0:000    0. 493d1178: 'FACP', 'A M I', Rev: 2, Len: 132
+16:442  0:000        (Dsdt: 493D1200, Facs: 49BE3C00)
+16:442  0:000        493d1200: 'DSDT', 'A M I', Rev: 2, Len: 174277
+16:444  0:002        49be3c00: 'FACS', Ver: 0, Len: 64
+16:444  0:000    1. 493fbbe0: 'APIC', 'A M I', Rev: 3, Len: 132
+16:444  0:000    2. 493fbc68: 'FPDT', 'A M I', Rev: 1, Len: 68
+16:444  0:000    3. = 0
+16:444  0:000    4. 493fbd08: 'MCFG', 'A M I', Rev: 1, Len: 60
+16:444  0:000    5. 493fbd48: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+16:444  0:000    6. 493fc0d8: 'FIDT', 'A M I', Rev: 1, Len: 156
+16:444  0:000    7. 493fc178: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+16:444  0:000    8. 493ff2d0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9534
+16:444  0:000    9. 49401810: 'HPET', 'SKL', Rev: 1, Len: 56
+16:444  0:000    10. 49401848: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2835
+16:444  0:000    11. 49402360: 'UEFI', 'EDK2', Rev: 1, Len: 66
+16:444  0:000    12. 494023a8: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+16:444  0:000    13. 49403288: 'LPIT', 'SKL', Rev: 1, Len: 148
+16:444  0:000    14. 49403320: 'WSMT', 'SKL', Rev: 1, Len: 40
+16:444  0:000    15. 49403348: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+16:444  0:000    16. 494035e8: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+16:444  0:000    17. 494065f0: 'DBGP', '', Rev: 1, Len: 52
+16:444  0:000    18. 49406628: 'DBG2', '', Rev: 0, Len: 84
+16:444  0:000    19. 49406680: 'BGRT', 'A M I', Rev: 1, Len: 56
